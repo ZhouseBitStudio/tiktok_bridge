@@ -15,7 +15,7 @@ connected = False
 
 while not connected:
     try:
-        sock.connect(("0.0.0.0", port))
+        sock.connect(("switchyard.proxy.rlwy.net", 12491))
         connected = True
         print(f"[bridge] connected to port {port}")
     except Exception as e:
