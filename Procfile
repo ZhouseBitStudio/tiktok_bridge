@@ -1,1 +1,1 @@
-python bridge.py
+worker: python bridge.py
